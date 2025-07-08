@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj": {}
+    "C:\\dev\\IntegraBarsilApi\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj": {}
   },
   "projects": {
-    "C:\\dev\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj": {
+    "C:\\dev\\IntegraBarsilApi\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj",
+        "projectUniqueName": "C:\\dev\\IntegraBarsilApi\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj",
         "projectName": "IntegraBrasilApi",
-        "projectPath": "C:\\dev\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj",
+        "projectPath": "C:\\dev\\IntegraBarsilApi\\IntegraBrasilApi\\IntegraBrasilApi\\IntegraBrasilApi.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\IntegraBrasilApi\\IntegraBrasilApi\\obj\\",
+        "outputPath": "C:\\dev\\IntegraBarsilApi\\IntegraBrasilApi\\IntegraBrasilApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
